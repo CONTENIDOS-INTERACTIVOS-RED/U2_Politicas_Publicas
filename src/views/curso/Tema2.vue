@@ -565,28 +565,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Qué concepto se refiere a la capacidad del sistema político para tomar decisiones legítimas y ejecutarlas con eficacia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Gobernanza.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Participación ciudadana. ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Gobernabilidad. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Descentralización.',
                 esCorrecta: false,
               },
             ],
@@ -596,29 +596,30 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'En el marco de la gobernanza, uno de los principales objetivos es:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Aumentar la burocracia estatal. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'Fortalecer la figura presidencial. ',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Consolidar decisiones en el poder judicial.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
+                texto:
+                  'Generar procesos colaborativos entre Múltiples actores.',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -627,28 +628,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              'Una política pública fallida desde el enfoque institucional suele relacionarse con:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Altos niveles de participación ciudadana. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Capacidad estatal sólida. ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Ausencia de coordinación y debilidad normativa. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Reformas fiscales progresivas.',
                 esCorrecta: false,
               },
             ],
@@ -657,28 +658,30 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'Una estrategia para fortalecer la gobernabilidad democrática consiste en:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Centralizar el poder en un solo órgano de gobierno. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Reducir el número de actores sociales involucrados. ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Promover sistemas electorales inclusivos y representativos. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Limitar la fiscalización de los recursos públicos',
                 esCorrecta: false,
               },
             ],
@@ -688,28 +691,29 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              'La evaluación participativa en procesos de gobernanza permite:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Eludir la rendición de cuentas. ',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Sostener decisiones sin retroalimentación. ',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Ampliar el control social y mejorar la calidad de las políticas. ',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Incrementar el clientelismo político.',
                 esCorrecta: false,
               },
             ],
